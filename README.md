@@ -27,3 +27,6 @@ Aurora sera structurée autour d'un système de "Core", chacun jouant un rôle c
 
 - **EVE** *(Echo Voice Emitter)* : Cette partie convertira les réponses d'Aurora en audio, permettant à l'utilisateur de recevoir des réponses vocales claires et naturelles. EVE assurera une synthèse vocale de haute qualité pour une meilleure expérience utilisateur.
 
+## graph des Core :
+![diagram-export-6-11-2024-10_28_56-PM](https://github.com/BoxOfPandor/Aurora/assets/89460756/7ba44e74-f50c-4b97-9e8d-579cf19d97ac)
+
