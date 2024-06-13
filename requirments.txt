@@ -1,0 +1,6 @@
+# Liste des dépendances Python
+speechrecognition
+pyaudio
+gtts
+pydub
+
