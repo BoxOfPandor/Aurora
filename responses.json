@@ -1,0 +1,10 @@
+[
+    {
+        "str_reactant": ["salut", "bonjour", "hello"],
+        "responses": ["Bonjour, User", "Salut, user", "Hello, user"]
+    },
+    {
+        "str_reactant": ["tu es qui", "qui es tu", "c'est qui"],
+        "responses": ["Je suis Aurora, votre assistante virtuelle", "Je m'appelle Aurora, votre assistante virtuelle"]
+    }
+]
