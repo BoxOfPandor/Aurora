@@ -7,13 +7,12 @@ def main():
     ivi = IVI()
     eve = EVE()
 
-    # Exemple d'interaction utilisateur
-    voice_data = ava.capture_voice()
-    text = ava.convert_voice_to_text(voice_data)
-    processed_data = ivi.process_data(text)
-    decision = ivi.make_decision(processed_data)
-    response_audio = eve.convert_text_to_speech(decision)
-    eve.play_response(response_audio)
+    while True:
+        user_input = ivi.interface()
+        data = ava.process_input(user_input)
+        processed_data = eve.process_data(data)
+        decision = ivi.make_decision(processed_data)
+        print(decision)
 
 if __name__ == "__main__":
     main()
