@@ -9,6 +9,7 @@ setup(
         "pyaudio",
         "gtts",
         "pydub",
+        "curses"
     ],
     entry_points={
         'console_scripts': [
