@@ -6,5 +6,17 @@
     {
         "str_reactant": ["tu es qui", "qui es tu", "c'est qui"],
         "responses": ["Je suis Aurora, votre assistante virtuelle", "Je m'appelle Aurora, votre assistante virtuelle"]
+    },
+    {
+        "str_reactant": ["comment vas-tu", "ça va"],
+        "responses": ["Je vais bien, merci !", "Ça va bien, merci !"]
+    },
+    {
+        "str_reactant": ["merci", "c'est gentil"],
+        "responses": ["De rien !", "Je suis là pour aider !"]
+    },
+    {
+        "str_reactant": ["au revoir", "à plus tard"],
+        "responses": ["Au revoir !", "À plus tard !"]
     }
 ]
