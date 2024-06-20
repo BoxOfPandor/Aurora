@@ -9,10 +9,10 @@ def main():
 
     while True:
         user_input = ivi.interface()
-        data = ava.process_input(user_input)
-        processed_data = eve.process_data(data)
-        decision = ivi.make_decision(processed_data)
-        print(decision)
+        if user_input.lower() == "exit":
+            break
+        aurora_response = ivi.make_decision(user_input)
+        print("Aurora: " + aurora_response + "\n")
 
 if __name__ == "__main__":
     main()
