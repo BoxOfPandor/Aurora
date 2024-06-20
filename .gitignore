@@ -3,7 +3,7 @@
 
 # Mais n'ignore pas ces fichiers
 !README.md
-!main.py
+!main
 !setup.py
 !requirements.txt
 !responses.json
