@@ -1,14 +1,14 @@
 [
     {
         "str_reactant": ["salut", "bonjour", "hello"],
-        "responses": ["Bonjour, User", "Salut, user", "Hello, user"]
+        "responses": ["Bonjour, Thibault", "Salut, Thibault", "Hello, Thibault"]
     },
     {
-        "str_reactant": ["tu es qui", "qui es tu", "c'est qui"],
+        "str_reactant": ["tu es qui", "qui es tu", "t'es qui", "qui est tu"],
         "responses": ["Je suis Aurora, votre assistante virtuelle", "Je m'appelle Aurora, votre assistante virtuelle"]
     },
     {
-        "str_reactant": ["comment vas-tu", "ça va"],
+        "str_reactant": ["comment vas-tu", "ça va", "comment ça va", "comment tu vas"],
         "responses": ["Je vais bien, merci !", "Ça va bien, merci !"]
     },
     {
