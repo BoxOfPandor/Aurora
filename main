@@ -4,15 +4,17 @@ from core.ava import AVA
 from core.eve import EVE
 
 def main():
+    weather_api_key = "0eb8190648ec8ecd65624e24686a8feb"
+    calendar_credentials_file = "credentials.json"
     ava = AVA()
-    ivi = IVI()
+    ivi = IVI(weather_api_key, calendar_credentials_file)
     eve = EVE()
 
     while True:
         user_input = ivi.interface()
         if user_input.lower() == "exit":
             break
-        aurora_response = ivi.make_decision(user_input)
+        aurora_response = ivi.process_data(user_input)
         eve.convert_text_to_speech(aurora_response)
         print("Aurora: " + aurora_response + "\n")
         eve.play_response()
