@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+import os
 from core.ivi import IVI
 from core.ava import AVA
 from core.eve import EVE
 
 def main():
-    weather_api_key = "0eb8190648ec8ecd65624e24686a8feb"
-    calendar_credentials_file = "credentials.json"
+    weather_api_key = os.getenv('WEATHER_API_KEY')
+    calendar_credentials_file = os.getenv('GOOGLE_CALENDAR_CREDENTIALS')
     ava = AVA()
     ivi = IVI(weather_api_key, calendar_credentials_file)
     eve = EVE()
